@@ -1,0 +1,13 @@
+
+<blockquote class="blockquote-box">
+  <p><%= @question %>
+  <p>-<em>You</em></p>
+</blockquote>
+<br>
+<blockquote class="blockquote-box bg-warning" style="--bs-bg-opacity: .15;"">
+  <p><strong><%= @answer %></strong></p>
+  <p>-<em>Your coach</em></p>
+</blockquote>
+
+<br>
+<%= link_to "ask a new question", "/ask", class:"text-primary text-decoration-none" %>
